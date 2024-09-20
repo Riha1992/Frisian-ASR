@@ -16,6 +16,9 @@ set_seed(seed)
 import datasets
 from datasets import load_dataset, load_metric
 
+#in the latest version of datasets, load_metric cannot be imported from datasets. Instead, install evaluate, then import "load" library from "evaluate"
+#from evaluate import load 
+
 
 
 base_url_train = "/data/p312702/from_wietse/train/"
